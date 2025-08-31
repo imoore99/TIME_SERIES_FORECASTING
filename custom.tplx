@@ -1,0 +1,15 @@
+((*- extends 'article.tplx' -*))
+
+((* block packages *))
+{{ super() }}
+% Disable section numbering
+\setcounter{secnumdepth}{0}
+((* endblock packages *))
+
+((* block maketitle *))
+% Suppress automatic title
+((* endblock maketitle *))
+
+((* block author *))
+% Suppress automatic author
+((* endblock author *))
