@@ -33,10 +33,6 @@ Core Stack:
 - statsmodels - ARIMA, SARIMAX, and traditional econometric models
 - scikit-learn - Machine learning models and validation framework
 
-Forecasting Libraries:
-
-- arch - GARCH models for volatility forecasting
-
 Visualization:
 
 - matplotlib/seaborn - Time series plotting and forecast visualization
