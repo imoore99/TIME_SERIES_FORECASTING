@@ -9,11 +9,11 @@
 
 ##### BUSINESS PROBLEM:
 
-Credit risk forecasting require accurate forecasting for risk management, portfolio optimization, and strategic planning. Traditional forecasting methods often struggle with complex financial data characteristics including non-stationarity, volatility clustering, and structural breaks. This project evaluates multiple forecasting approaches to identify optimal methods for different financial time series patterns.
+Credit risk forecasting require accurate forecasting for risk management, portfolio optimization, and strategic planning. Traditional forecasting methods often struggle with forecasting beyond what is being reported. OFten, it lacks proper checks for non-stationarity, volatility clustering, and structural breaks. This project evaluates multiple forecasting approaches to identify optimal methods for different time series patterns.
 
 ##### DATA SOURCES:
 
-- Primary: Financial time series data (stock prices, economic indicators, market indices)
+- Primary: Historical Credit Risk data (Charge-Offs and Recoveries)
 - Features: Price data, volume, volatility measures, and technical indicators
 - Frequency: Daily, weekly, and monthly observations
 - Validation: Out-of-sample testing with walk-forward analysis
@@ -21,7 +21,6 @@ Credit risk forecasting require accurate forecasting for risk management, portfo
 ##### KEY FINDINGS & RESULTS:
 
 - Model Comparison: Evaluated ARIMA, SARIMA, and a generalized mean-reverting methodology
-- Volatility Prediction: Successfully captured volatility clustering with GARCH-enhanced models
 - Confidence Intervals: Developed reliable uncertainty quantification for risk management applications
 - Business Impact: Enhanced forecasting accuracy supports improved investment and risk management decisions
 
@@ -48,7 +47,7 @@ Development Tools:
 - Git - Version control and collaboration
 
 LIVE PROJECT:
-- View Full Analysis & Visualizations → https://ian-moore-analytics.webflow.io/project/survival-rate
+- View Full Analysis & Visualizations → https://www.ianmooreanalytics.com/project/time-series-statsmodels
 - Explore the complete project with outlier detection, forecasting methodology and recovery ratio analysis for strategic recommendations.
 
 CONTACT:
@@ -61,4 +60,4 @@ Ian Moore - Business Intelligence, Credit Risk and Financial Analytics Leader
 
 🌐 Portfolio: https://www.ianmooreanalytics.com
 
-Comprehensive time series forecasting framework for financial data analysis and prediction.
+Comprehensive time series forecasting framework for credit risk data analysis and prediction.
